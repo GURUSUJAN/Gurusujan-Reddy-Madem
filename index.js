@@ -8,6 +8,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 
+const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
