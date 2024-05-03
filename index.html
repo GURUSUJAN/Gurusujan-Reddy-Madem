@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -157,3 +157,184 @@
         <script src="index.js"></script>
     </body>
     </html>
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurusujan Reddy - Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black">
+    <nav class="flex items-center justify-between bg-white rounded-xl p-4 mb-8">
+        <div class="flex items-center space-x-4">
+            <div class="pic">
+                <img src="Photos/madem.reddy.jpg" alt="profiepic" class="h-10 w-10 rounded-full">
+            </div>
+            <div class="InWeb hidden md:block">
+                <a href="#about-section">About</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#projects-section">Projects</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+        </div>
+        <div class="OtherLinks flex items-center space-x-4">
+            <a href="https://twitter.com/guru_sujan" target="_blank"><img src="Photos/Twitter.png" alt="Twitter" class="w-5 h-5"></a>
+            <a href="https://www.linkedin.com/in/gurusujan" target="_blank"><img src="Photos/LinkedIn.png" alt="LinkedIn" class="w-5 h-5"></a>
+            <a href="https://github.com/GURUSUJAN" target="_blank"><img src="Photos/GitHub.png" alt="Github" class="w-5 h-5"></a>
+            <button class="md:hidden" onclick="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 9a1 1 0 100 2h12a1 1 0 100-2H3zM9 17a1 1 0 100-2H4a1 1 0 100 2h5z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <div class="main-content flex flex-col md:flex-row items-center justify-between p-4 md:px-20">
+        <div class="intro text-center md:text-left mb-8 md:mb-0">
+            <h3>HI THERE 👋🏽, I'M</h3>
+            <h1 class="text-3xl md:text-5xl text-white font-bold">Gurusujan Reddy</h1>
+            <p class="text-lg md:text-xl text-gray-400">A Hyderabad based ASE, Experienced in C++, SDV(IVI Android MiddleWare).</p>
+            <a href="mailto:gurusujanreddymademgmail.com" class="inline-block mt-4 px-6 py-2 bg-black text-white rounded-lg border border-transparent hover:bg-white hover:text-black transition duration-300">Send Email</a>
+        </div>
+        <div class="gif">
+            <img src="Photos/coding-ground.png" alt="gif" class="w-3/4 mx-auto md:w-auto">
+        </div>
+    </div>
+
+    <div class="about-section flex flex-col md:flex-row items-center justify-between p-4 md:p-8 mb-8 md:mb-16 bg-gray-900 rounded-xl">
+        <div class="picture mb-8 md:mb-8 md:mr-8">
+          <img src="Photos/madem.reddy.jpg" alt="Picture" class="rounded-full mx-auto md:mx-0">
+        </div>
+        <div class="information text-center md:text-left text-white md:w-1/2">
+            <h3 class="text-xl md:text-2xl">WHO IS GURUSUJAN?</h3>
+            <h1 class="text-3xl md:text-5xl font-bold mt-4 mb-6">A Bit About Me</h1>
+            <p class="text-lg md:text-xl text-gray-400 leading-relaxed">Born in India, I'm passionate about deciphering challenging problems and creating exceptional digital experience.🌟<br><br>
+                Joining Techvanto Academy, I immersed myself in IoT. Through hands-on projects, I honed my skills and teamwork. Experienced in C++, I contribute to projects and write maintainable code.💻 <br><br>
+                Continually enhancing my skills, I'm a quick learner by nature. Committed to self-improvement, I tackle challenges head-on. When not coding, I enjoy watching F1🏎️☁️ races🏁.
+                <h2 class="text-2xl mt-6">Currently Working as an Project Intern in Accenture, Bengaluru(IN).</h2>
+            </p>
+        </div>
+    </div>
+
+    <div class="skills-section text-center p-8 bg-gray-900 rounded-xl mb-8 md:mb-16">
+        <div class="myskills mb-8">
+            <h3 class="text-xl md:text-2xl text-aquamarine">MY SKILLS</h3>
+            <h1 class="text-3xl md:text-5xl text-white font-bold">Technologies I Work With</h1>
+        </div>
+
+        <div class="info text-gray-400 mb-8">
+            <p class="text-lg md:text-xl">I've have taken a number of online courses, currently getting my hands dirty with <span class="font-bold">AAOS(SDV)</span> and here are a few technologies I’ve been working with recently:</p>
+        </div>
+        <div class="skills flex flex-wrap justify-center">
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">HTML & CSS</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">JavaScript</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">C++</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">MatLab</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">LabView</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Java</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Embedded C</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Arduino</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">System Verilog</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Tinker CAD</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Proteous</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Linux</p>
+            <p class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">SQL</p>
+        </div>
+    </div>
+
+    <div class="projects-section text-center p-8 bg-gray-900 rounded-xl mb-8 md:mb-16">
+        <h3 class="text-xl md:text-2xl text-aquamarine">MY PROJECTS</h3>
+        <h1 class="text-3xl md:text-5xl text-white font-bold mb-6">Somethings I Built</h1>
+        <p class="text-lg md:text-xl text-gray-400 mb-8">Take a look at some of the applications I've have built</p>
+
+        <div class="project1 flex flex-col md:flex-row mb-8">
+            <div class="project1-img md:mr-8">
+                <img src="Photos/Bank.jpg" alt="Bank" class="w-80 md:w-auto">
+            </div>
+            <div class="briefing text-left md:text-center text-white md:w-1/2">
+                <h1 class="text-3xl font-bold mb-2">01</h1>
+                <h2 class="text-2xl mb-2">Personal E-Bank</h2>
+                <p class="text-lg md:text-xl text-gray-400 mb-4">The C++ program implements a basic banking system with account creation, login, balance check, deposit, and withdrawal functionalities. It utilizes enums for menu options and account operations, file I/O for data storage, and exception handling for robust error management.</p>
+                <div class="flex flex-wrap">
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">C++</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">OOPS</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">File Handling</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Exception Handling</span>
+                </div>
+                <a href="https://github.com/GURUSUJAN/Banking-in-CPP" class="text-white font-bold mt-4 inline-block">Github →</a>
+            </div>
+        </div>
+
+        <div class="project2 flex flex-col-reverse md:flex-row mb-8">
+            <div class="briefing2 text-left md:text-center text-white md:w-1/2">
+                <h1 class="text-3xl font-bold mb-2">02</h1>
+                <h2 class="text-2xl mb-2">Digital Cricket</h2>
+                <p class="text-lg md:text-xl text-gray-400 mb-4">This program simulates a cricket game where the user guesses the wicket-taking ball. The computer generates random numbers representing balls bowled. If the user's guess matches the generated number, the batsman is dismissed, and a new batsman joins the game.</p>
+                <div class="flex flex-wrap">
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">C++</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">OOPS</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Exception Handling</span>
+                </div>
+            </div>
+            <div class="project2-img md:ml-8">
+                <img src="Photos/Cricket.jpg" alt="Cricket" class="w-80 md:w-auto">
+            </div>
+        </div>
+
+        <div class="project1 flex flex-col md:flex-row mb-8">
+            <div class="project1-img md:mr-8">
+                <img src="Photos/Face.jpg" alt="Face Recognition" class="w-80 md:w-auto">
+            </div>
+            <div class="briefing text-left md:text-center text-white md:w-1/2">
+                <h1 class="text-3xl font-bold mb-2">03</h1>
+                <h2 class="text-2xl mb-2">Face Recognition</h2>
+                <p class="text-lg md:text-xl text-gray-400 mb-4">This program utilizes face recognition technology to identify individuals in images or videos. Using advanced algorithms, the system compares facial features with those in a database to make accurate identifications. It provides a seamless and efficient method for recognizing individuals in various applications such as security systems, photo organization, and social media tagging.</p>
+                <div class="flex flex-wrap">
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Python</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">OpenCV</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project2 flex flex-col-reverse md:flex-row mb-8">
+            <div class="briefing2 text-left md:text-center text-white md:w-1/2">
+                <h1 class="text-3xl font-bold mb-2">04</h1>
+                <h2 class="text-2xl mb-2">Hospital Management System</h2>
+                <p class="text-lg md:text-xl text-gray-400 mb-4">This Java Swing-based program efficiently manages hospital records. It stores patient information, including medical history, appointments, and treatments. The system allows healthcare professionals to access and update patient records securely, ensuring smooth hospital operations and improved patient care.</p>
+                <div class="flex flex-wrap">
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Java</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">OOPS</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">JavaSwing</span>
+                    <span class="m-2 px-4 py-2 bg-gray-700 text-white rounded-lg">Exception Handling</span>
+                </div>
+                <a href="https://github.com/GURUSUJAN/Hospital-Management-System-USING-JAVA" class="text-white font-bold mt-4 inline-block">Github →</a>
+            </div>
+            <div class="project2-img md:ml-8">
+                <img src="Photos/Hospital.jpg" alt="Hospital" class="w-80 md:w-auto">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section text-center p-8 bg-gray-900 rounded-xl mb-8 md:mb-16">
+        <h3 class="text-xl md:text-2xl text-aquamarine">HAVE A PROJECT? OR JUST LOOKING TO HIRE?</h3>
+        <h1 class="text-3xl md:text-5xl text-white font-bold mb-6">Let's Work Together</h1>
+        <p class="text-lg md:text-xl text-gray-400 mb-8">Feel free to reach out if you're looking to hire, just want to connect or see if we can build something amazing together.</p>
+        <a href="mailto:gurusujanreddymademgmail.com" class="text-white font-bold px-6 py-2 bg-black rounded-lg border border-transparent hover:bg-white hover:text-black transition duration-300">GET IN TOUCH →</a>
+    </div>
+
+    <div class="last bg-gray-900 text-white py-4 px-8 flex justify-between items-center rounded-xl">
+        <span>© 2024 Gurusujan</span>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/gurusujan" target="_blank">LinkedIn</a>
+            <a href="https://github.com/GURUSUJAN" target="_blank">Github</a>
+            <button onclick="scrollToTop()" class="bg-gray-700 hover:bg-gray-600 text-white font-bold px-4 py-2 rounded-md">Go to Top &#8679;</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
